@@ -1,4 +1,4 @@
-name: 🚀 Git Deploy
+name: Git Push to Hosting
 
 on:
   push:

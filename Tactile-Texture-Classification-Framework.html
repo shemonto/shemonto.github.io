@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Project 3 Details</title>
+    <title>Project 2 Details</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -70,43 +70,52 @@
     <div class="container-fluid p-10">
 
         <h2 class="mb-0 mt-4">
-            <span class="text-primary">Project 3: Instrumar's Pipeline for Manufacturing Fault Classification</span>
+            <span class="text-primary">Project 2: Tactile Texture Classification Framework</span>
         </h2>
-        <div class="subheading mb-3">(Python, Scikit-learn, Pandas)</div>
+        <div class="subheading mb-3">(Python, Scikit-learn, Pandas, Scipy)</div>
 
         <section class="mt-3">
             <h2>Description</h2>
             <ul>
-                <li>Developed Instrumar’s Active Learning Pipeline for fault classification in industrial manufacturing
-                    processes.</li>
-                <li>Automating the identification and classification of production faults</li>
-                <li> Applied SPC based anomaly anomaly detection techniques for identifying real-life manufacturing
-                    faults that needs to be classified. </li>
-                <li> Performed domain specific feature generation, selection, and dimensionality reduction methods.
-                <li>Developed a novel balancement algorithm to address data imbalance challenges inherent in Instrumar’s
-                    time series data, ensuring robust and accurate fault classification.</li>
-                <li>Implemented multiple active learning strategies to intelligently select the most informative data
-                    samples for annotation, optimizing the training process and reducing annotation cost and time.</li>
-                <li>Integrated state-of-the-art machine learning models including XGBoost, GradientBoosting Classifier,
-                    and Neural Networks to leverage the power of advanced algorithms for fault classification.</li>
-                <li>Achieved significant improvements in fault classification efficiency, contributing to enhanced
-                    operational performance and cost savings for Instrumar.</li>
-
+                <li>Conducted preprocessing and in-depth analysis of tactile sensing data collected from the exploratory
+                    movement of a robotic finger to generate meaningful features.</li>
+                <li>Developed a hyperparameter tuning function to optimize sliding window sizes for effective feature
+                    extraction.</li>
+                <li>Developed an Active Learning framework incorporating three strategic algorithms namely Uncertainty
+                    Sampling, Query by Committee and Expected Model Change.</li>
+                <li>Integrated machine learning models including Random Forest, Decision Tree, XGBoost and
+                    ExtraTreesClassifier for accurate texture classification.</li>
+                <li>Utilized statistical analysis techniques such as Wilcoxon hypothesis testing to evaluate the
+                    significance of window sizes along with the active learning strategy and machine learning models.
+                </li>
 
         </section>
 
         <section class="mt-4">
-            <h2>Results </h2>
-            <img class="project-image" src="Images/Proj1/UNC-Instrumar.png" alt="Project 1 Screenshot 2" width="700"
-                height="600">
+            <h2>The developed framework for tactile texture classification </h2>
+            <img class="project-image" src="Images/Proj1/Pipeline.jpg" alt="Project 1 Screenshot 2" width="900"
+                height="500">
+            <!-- Add more screenshots as needed -->
+            <p> 1) Data collection from exploratory
 
+                movements; 2) time series data is partitioned into temporal; 3) statistical attributes extraction; 4)
+                using
+
+                AL strategies to rank instances; 5) the AL strategy selects top-ranked instances; Machine-learning model
+
+                built with the instances in the labeled pool; 7) classify all instances in the processed tactile data
+                pool
+            </p>
         </section>
 
 
 
         <section class="mt-4">
             <h2>Additional Information</h2>
-            <p>The above work has been accepted for publication in IEEE Systems Conference 2024. </p>
+            <p>The above work including the figure has been published in the Journal of Frontiers in Robotics and AI.
+                <a
+                    href="https://www.frontiersin.org/articles/10.3389/frobt.2024.1281060/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Robotics_and_AI&id=1281060">Link</a>
+            </p>
         </section>
 
 

@@ -54,7 +54,7 @@
                     <a class="nav-link" href="./#Research">Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./#Projects">Projects</a>
+                    <a class="nav-link active" href="./#Projects">Projects</a>
                 </li>
 
                 <li class="nav-item">
@@ -75,36 +75,45 @@
     <div class="container-fluid p-10">
 
         <h2 class="mb-0 mt-4">
-            <span class="text-primary">Project 5: Customer Churn Prediction</span>
+            <span class="text-primary">Project 5: Explainable AI</span>
         </h2>
-        <div class="subheading mb-3">(Python, CatBoost, LightGBM, Pandas, Scikit-learn)</div>
+        <div class="subheading mb-3">(Python, Scikit-learn, Pandas, Imbalanced-learn)</div>
 
         <section class="mt-3">
             <h2>Description</h2>
             <ul>
-                <li>Conducted in-depth data analysis to identify key drivers of customer churn.</li>
-                <li>Employed advanced feature engineering techniques to create meaningful features from raw data.</li>
-                <li>Trained and optimized machine learning models, including CatBoost and LightGBM, to predict customer
-                    churn with high accuracy.</li>
-                <li>Implemented ensemble methods to enhance prediction accuracy and reduce variance.</li>
-                <li>Evaluated model performance on various metrics, ensuring robustness and reliability for deployment.
+                <li>Conducted exploratory data analysis (EDA) on financial datasets, implementing data cleaning
+                    techniques and detecting outliers.</li>
+                <li>Employed feature selection methods such as Information Gain and Correlational Analysis to identify
+                    relevant features.</li>
+                <li> Utilized unsupervised algorithms including Isolation Forest and Local Outlier Factor for detecting
+                    anomalies within the data.</li>
+                <li> Implemented a Random Forest classifier specifically tailored for the detection of financial fraud.
                 </li>
-            </ul>
+                <li>Addressed data imbalance issues using Synthetic Minority Over-sampling Technique (SMOTE) and
+                    evaluated its impact on model performance compared to non-balanced datasets.</li>
+
+
+
         </section>
 
         <section class="mt-4">
             <h2>Results </h2>
-            <img class="project-image" src="Images/Proj5/accuracy_graph.png" alt="Project 5 Screenshot" width="700"
+            <img class="project-image" src="Images/Proj1/confusion_matrix.png" alt="Project 1 Screenshot 2" width="700"
                 height="600">
 
         </section>
 
+
+
         <section class="mt-4">
             <h2>Additional Information</h2>
-            <p>The dataset is sourced from [source]. The link to the notebook can be found <a
-                    href="https://github.com/shemonto/Customer_Churn_Prediction/blob/main/Churn_Prediction.ipynb"><strong>here</strong></a>.
+            <p>The dataset is used from kaggle. The link to the notebook <a
+                    href="https://github.com/shemonto/Financial_Fraud_Detection/blob/main/Fraud_Detection.ipynb">Link</a>
             </p>
         </section>
+
+
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -117,10 +126,9 @@
         <script src="js/resume.min.js"></script>
     </div>
 
+
     <footer class='border-top'>
         <p class=" text-center">&copy; 2024 Shemonto Das. <br>All rights reserved.</p>
     </footer>
 
 </body>
-
-</html>

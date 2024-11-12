@@ -75,9 +75,27 @@
     <div class="container-fluid p-10">
 
         <h2 class="mb-0 mt-4">
-            <span class="text-primary"> Tactile Texture Classification Framework</span>
+            <span class="text-primary"> Active Learning Frmework for Tactile Texture Classification</span>
         </h2>
         <div class="subheading mb-3">(Python, Scikit-learn, Pandas, Scipy)</div>
+
+
+        <section class="mt-3">
+            <h2>Objective</h2>
+            <p>The objective of this project is to enhance robotic tactile texture recognition by implementing Active
+                Learning (AL)
+                strategies to minimize human labeling efforts while achieving high classification performance. The
+                project
+                involves developing a class-balancing instance selection algorithm, optimizing sliding window sizes for
+                feature
+                extraction, and integrating various machine learning models (e.g., Extra Trees, XGBoost) for texture
+                classification.
+                By evaluating the impact of AL strategies and window sizes, the goal is to improve the efficiency and
+                accuracy of
+                texture classification tasks in robots, particularly in environments with diverse and dynamic textures.
+            </p>
+
+        </section>
 
         <section class="mt-3">
             <h2>Description</h2>
@@ -111,6 +129,20 @@
                 built with the instances in the labeled pool; 7) classify all instances in the processed tactile data
                 pool
             </p>
+        </section>
+
+        <section class="mt-3">
+            <h2>Results</h2>
+            <ul>
+                <li>Reduced training data requirement by 70% using Active Learning (AL) strategies, with performance
+                    surpassing baseline in many cases.</li>
+                <li>Obtained an average F1-score of <strong>90.21%</strong> in texture classification using Extra Trees
+                    classifier.</li>
+                <li>Demonstrated superior performance with a <strong>6-second sliding window</strong> for feature
+                    extraction.</li>
+                <li>Showed positive effects on performance when integrating the class-balancing instance selection
+                    algorithm with standard AL strategies.</li>
+            </ul>
         </section>
 
 
